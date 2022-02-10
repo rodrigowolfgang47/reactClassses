@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import "./estilo.css"
+
 
 class CardDeNotas extends Component {
     render() {
         return (
-            <section>
+            <section className="carde-de-notas">
                 <header>
                     <h3>
                         Título
